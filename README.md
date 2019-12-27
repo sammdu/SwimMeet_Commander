@@ -1,4 +1,4 @@
-# Swim Meet Commander
+# Swim Meet Commander ![Creative Commons Attribution 4.0 International License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
 #### Unofficial macro keyboard for the HY-TEK Swim Meet Manager software.
 
 ## 3D Renders
