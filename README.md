@@ -1,6 +1,9 @@
-# Swim Meet Commander <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+# Swim Meet Commander
 #### Unofficial macro keyboard for the HY-TEK Swim Meet Manager software.
-Designed with [KiCad](https://www.kicad-pcb.org/) 
+Designed with [KiCad](https://www.kicad-pcb.org/)   
+
+![Open Source Hardware Logo](https://i2.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png)<br/> 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
 <br/>
 
@@ -28,8 +31,9 @@ This project is NOT endorsed or sponsored by HY-TEK Sports Software®, Active Ne
 THE SCHEMATICS, DESIGN, SOURCE FILES, SOFTWARE, AND DATASHEETS ARE PROVIDED "AS IS", 
 WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
 THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
-FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
-OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT 
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SCHEMATICS, DESIGN, 
+SOURCE FILES, SOFTWARE, AND DATASHEETS OR THE USE OR OTHER DEALINGS IN THE 
+SCHEMATICS, DESIGN, SOURCE FILES, SOFTWARE, AND DATASHEETS.
  ```
