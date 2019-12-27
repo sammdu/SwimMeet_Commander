@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SwimMeet_Controller_KiCAD)(type KiCad)(uri ${KIPRJMOD}/SwimMeet_Controller_KiCAD.pretty)(options "")(descr ""))
+)
