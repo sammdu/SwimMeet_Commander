@@ -17,3 +17,19 @@ Designed with [KiCad](https://www.kicad-pcb.org/)
 * USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/) 
 * 5mm LEDs 
 * 0805 SMD Resistors: `1k` and `47k` values 
+
+## Copyright & Licensing
+
+This project consists of open source software and hardware, released under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), unless otherwise specified.   
+This project is NOT endorsed or sponsored by HY-TEK Sports Software®, Active Network, LLC., or any of their affiliates.
+
+**NOTE:**
+```
+THE SCHEMATICS, DESIGN, SOURCE FILES, SOFTWARE, AND DATASHEETS ARE PROVIDED "AS IS", 
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ ```
