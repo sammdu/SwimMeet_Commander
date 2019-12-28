@@ -18,6 +18,7 @@ Designed with [KiCad](https://www.kicad-pcb.org/)
 * Keyboard Switches: [E-Switch KS1100](https://www.digikey.com/product-detail/en/KS1100OA1AF060/EG5505-ND/7364301/) 
 * Key Caps: [TE Connectivity ALCOSWITCH 1571384-4](https://www.digikey.com/product-detail/en/1571384-4/450-1829-ND/1201463/) 
 * USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/) 
+* Toggle Switch: [Sparkfun COM-09276](https://www.sparkfun.com/products/9276) 
 * 5mm LEDs 
 * 0805 SMD Resistors: `1k` and `47k` values 
 
