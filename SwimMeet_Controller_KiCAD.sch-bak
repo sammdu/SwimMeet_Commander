@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Swim Meet Commander"
-Date "2019-12-27"
-Rev "2019-12-27"
+Date "2019-12-30"
+Rev "2019-12-30"
 Comp "Samm Du"
 Comment1 "https://sammdu.com"
 Comment2 "Creative Commons Attribution 4.0 International License"
@@ -246,7 +246,7 @@ L Switch:SW_Push SW3
 U 1 1 5E26726B
 P 7000 4700
 F 0 "SW3" H 6800 4800 50  0000 C CNN
-F 1 "KEY" H 7200 4800 50  0000 C CNN
+F 1 "PREV_EVENT" H 7100 4800 50  0000 L CNN
 F 2 "SAMM_Misc:SW_KeySwitch_KS1100_E-SWITCH" H 7000 4900 50  0001 C CNN
 F 3 "~" H 7000 4900 50  0001 C CNN
 	1    7000 4700
@@ -378,7 +378,7 @@ L Switch:SW_Push SW2
 U 1 1 5E26D5F7
 P 8100 5000
 F 0 "SW2" H 7900 5100 50  0000 C CNN
-F 1 "KEY" H 8300 5100 50  0000 C CNN
+F 1 "NEXT_HEAT" H 8200 5100 50  0000 L CNN
 F 2 "SAMM_Misc:SW_KeySwitch_KS1100_E-SWITCH" H 8100 5200 50  0001 C CNN
 F 3 "~" H 8100 5200 50  0001 C CNN
 	1    8100 5000
