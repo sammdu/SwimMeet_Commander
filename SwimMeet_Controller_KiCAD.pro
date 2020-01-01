@@ -1,4 +1,4 @@
-update=Mon 30 Dec 2019 04:18:12 AM EST
+update=Tue 31 Dec 2019 11:24:44 PM EST
 version=1
 last_client=kicad
 [general]
@@ -12,19 +12,9 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=/home/samm/Documents/KiCad_Libraries/samm-logo-titleblock.kicad_wks
 LastNetListRead=SwimMeet_Controller_KiCAD.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -71,7 +61,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -272,3 +262,13 @@ uViaDrill=0.1
 dPairWidth=0.3048
 dPairGap=0.3048
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/home/samm/Documents/KiCad_Libraries/samm-logo-titleblock.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

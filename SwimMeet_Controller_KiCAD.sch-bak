@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Swim Meet Commander"
-Date "2019-12-30"
-Rev "2019-12-30"
+Date "2019-12-31"
+Rev "2019-12-31"
 Comp "Samm Du"
 Comment1 "https://sammdu.com"
 Comment2 "Creative Commons Attribution 4.0 International License"
@@ -155,7 +155,7 @@ L SAMM_Misc:R_US R2
 U 1 1 5E0CBACF
 P 3150 1900
 F 0 "R2" V 3250 1850 50  0000 L CNN
-F 1 "1k" V 3030 1850 50  0000 L CNN
+F 1 "100R" V 3025 1800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 1900 50  0001 C CNN
 F 3 "~" H 3150 1900 50  0001 C CNN
 	1    3150 1900
@@ -714,7 +714,7 @@ L Device:LED_Small D2
 U 1 1 5E0CB191
 P 2850 1900
 F 0 "D2" H 2850 1800 50  0000 C CNN
-F 1 "LED_DATA" H 2850 2020 50  0000 C CNN
+F 1 "LED_DATA" H 2850 2025 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" V 2850 1900 50  0001 C CNN
 F 3 "~" V 2850 1900 50  0001 C CNN
 	1    2850 1900
@@ -780,7 +780,7 @@ L SAMM_Misc:R_US R1
 U 1 1 5E0C439E
 P 1500 4500
 F 0 "R1" H 1568 4546 50  0000 L CNN
-F 1 "1k" H 1568 4455 50  0000 L CNN
+F 1 "150R" H 1568 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 4500 50  0001 C CNN
 F 3 "~" H 1500 4500 50  0001 C CNN
 	1    1500 4500

@@ -5,10 +5,10 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Swim Meet Commander"
-Date "2019-12-30"
-Rev "2019-12-30"
+Date "2019-12-31"
+Rev "2019-12-31"
 Comp "Samm Du"
-Comment1 "https://sammdu.com"
+Comment1 "https://github.com/sammdu/SwimMeet_Commander"
 Comment2 "Creative Commons Attribution 4.0 International License"
 Comment3 "for HY-TEK Swim Meet Manager Software"
 Comment4 "Macro Keyboard"
