@@ -11,6 +11,9 @@ Designed with [KiCad](https://www.kicad-pcb.org/)
 ![PCB 3D Rendering, Front](readme_misc/pcb3d_f.png)
 ![PCB 3D Rendering, Back](readme_misc/pcb3d_b.png)
 
+## TODO
+* add debug mode physical switch for printing ASCII instead of actually pressing the key combinations
+
 ## Materials
 
 * Microcontroller: [Digispark Development Board](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO) 
