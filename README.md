@@ -12,8 +12,6 @@ Designed with [KiCad](https://www.kicad-pcb.org/)
 ![PCB 3D Rendering, Back](readme_misc/pcb3d_b.png)
 
 ## TODO
-* change R for LEDs to 249R
-* adjust toggle switch footprint
 * add debug mode physical switch for printing ASCII instead of actually pressing the key combinations
 
 ## Materials
