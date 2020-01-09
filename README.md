@@ -23,7 +23,7 @@ Designed with [KiCad](https://www.kicad-pcb.org/)
 * USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/) 
 * Toggle Switch: [Sparkfun COM-09276](https://www.sparkfun.com/products/9276) 
 * 5mm LEDs 
-* 0805 SMD Resistors: `1k` and `47k` values 
+* 0805 SMD Resistors: `330R`, `4k7` and `10k` values 
 
 ## Copyright & Licensing
 
