@@ -13,7 +13,7 @@ Programmed with [Arduino](https://www.arduino.cc/)
 ![PCB 3D Rendering, Back](readme_misc/pcb3d_b_asm.png)
 
 ## TODO
-* Switch `if` and `else` clauses during polling in Arduino code to improve normal operation responsiveness
+All done!
 
 ## Materials
 
