@@ -14,7 +14,7 @@ int debug_pin = 1;
 int debug_state; // debug mode is active HIGH
 
 /* delay between two input readings */
-int debounce_time = 80;
+int debounce_time = 170;
 
 /* I/O expander state variables */
 byte inputs_A = 1;
@@ -24,9 +24,10 @@ void setup()
 {
 
   Wire.begin(); // wake up I2C bus
-  DigiKeyboard.delay(50);
 
-  pinMode(debug_pin, INPUT);
+  DigiKeyboard.delay(50); // initialize keyboard transmission
+
+  pinMode(debug_pin, INPUT); // initialize debug pin as input
 
 }
 
@@ -63,16 +64,16 @@ void loop()
   /* SCORE EVENT */
   if (inputs_B == 0b10111111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# SCORE EVENT [Ctrl+S]");
-      DigiKeyboard.print("\n");
+      // [Ctrl+S]
+      DigiKeyboard.sendKeyStroke(KEY_S, MOD_CONTROL_LEFT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Ctrl+S]
-      DigiKeyboard.sendKeyStroke(KEY_S, MOD_CONTROL_LEFT);
+      DigiKeyboard.print("# SCORE EVENT [Ctrl+S]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -80,16 +81,16 @@ void loop()
   /* GET TIMES */
   if (inputs_B == 0b11011111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# GET TIMES [F3]");
-      DigiKeyboard.print("\n");
+      // [F3]
+      DigiKeyboard.sendKeyStroke(KEY_F3);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [F3]
-      DigiKeyboard.sendKeyStroke(KEY_F3);
+      DigiKeyboard.print("# GET TIMES [F3]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -97,16 +98,16 @@ void loop()
   /* PREV HEAT */
   if (inputs_B == 0b11101111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# PREV HEAT [F4]");
-      DigiKeyboard.print("\n");
+      // [F4]
+      DigiKeyboard.sendKeyStroke(KEY_F4);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [F4]
-      DigiKeyboard.sendKeyStroke(KEY_F4);
+      DigiKeyboard.print("# PREV HEAT [F4]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -114,16 +115,16 @@ void loop()
   /* NEXT HEAT */
   if (inputs_B == 0b11111101)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# NEXT HEAT [F5]");
-      DigiKeyboard.print("\n");
+      // [F5]
+      DigiKeyboard.sendKeyStroke(KEY_F5);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [F5]
-      DigiKeyboard.sendKeyStroke(KEY_F5);
+      DigiKeyboard.print("# NEXT HEAT [F5]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -131,16 +132,16 @@ void loop()
   /* PREV EVENT */
   if (inputs_B == 0b11111011)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# PREV EVENT [Ctrl+F4]");
-      DigiKeyboard.print("\n");
+      // [Ctrl+F4]
+      DigiKeyboard.sendKeyStroke(KEY_F4, MOD_CONTROL_LEFT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Ctrl+F4]
-      DigiKeyboard.sendKeyStroke(KEY_F4, MOD_CONTROL_LEFT);
+      DigiKeyboard.print("# PREV EVENT [Ctrl+F4]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -148,16 +149,16 @@ void loop()
   /* NEXT EVENT */
   if (inputs_B == 0b11110111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# NEXT EVENT [Ctrl+F5]");
-      DigiKeyboard.print("\n");
+      // [Ctrl+F5]
+      DigiKeyboard.sendKeyStroke(KEY_F5, MOD_CONTROL_LEFT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Ctrl+F5]
-      DigiKeyboard.sendKeyStroke(KEY_F5, MOD_CONTROL_LEFT);
+      DigiKeyboard.print("# NEXT EVENT [Ctrl+F5]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -165,16 +166,16 @@ void loop()
   /* UP */
   if (inputs_A == 0b11011111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# UP");
-      DigiKeyboard.print("\n");
+      // [Up]
+      DigiKeyboard.sendKeyStroke(KEY_ARROW_UP);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Up]
-      DigiKeyboard.sendKeyStroke(KEY_ARROW_UP);
+      DigiKeyboard.print("# UP");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -182,16 +183,16 @@ void loop()
   /* DOWN */
   if (inputs_A == 0b10111111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# DOWN");
-      DigiKeyboard.print("\n");
+      // [Down]
+      DigiKeyboard.sendKeyStroke(KEY_ARROW_DOWN);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Down]
-      DigiKeyboard.sendKeyStroke(KEY_ARROW_DOWN);
+      DigiKeyboard.print("# DOWN");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -199,16 +200,16 @@ void loop()
   /* LEFT */
   if (inputs_B == 0b11111110)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# LEFT");
-      DigiKeyboard.print("\n");
+      // [Left]
+      DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Left]
-      DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
+      DigiKeyboard.print("# LEFT");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -216,16 +217,16 @@ void loop()
   /* RIGHT */
   if (inputs_A == 0b11101111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# RIGHT");
-      DigiKeyboard.print("\n");
+      // [Right]
+      DigiKeyboard.sendKeyStroke(KEY_ARROW_RIGHT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Right]
-      DigiKeyboard.sendKeyStroke(KEY_ARROW_RIGHT);
+      DigiKeyboard.print("# RIGHT");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -233,13 +234,7 @@ void loop()
   /* ACCEPT */
   if (inputs_A == 0b01111111)
   {
-    if (debug_state)
-    {
-      DigiKeyboard.print("# ACCEPT [<-] [Enter]");
-      DigiKeyboard.print("\n");
-      DigiKeyboard.delay(debounce_time);
-    }
-    else
+    if (not debug_state)
     {
       // [<-] (pause 30ms) [Enter]
       DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
@@ -247,21 +242,27 @@ void loop()
       DigiKeyboard.sendKeyStroke(KEY_ENTER);
       DigiKeyboard.delay(debounce_time);
     }
+    else
+    {
+      DigiKeyboard.print("# ACCEPT [<-] [Enter]");
+      DigiKeyboard.print("\n");
+      DigiKeyboard.delay(debounce_time);
+    }
   }
 
   /* ENTER */
   if (inputs_A == 0b11110111)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# ENTER");
-      DigiKeyboard.print("\n");
+      // [Enter]
+      DigiKeyboard.sendKeyStroke(KEY_ENTER);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Enter]
-      DigiKeyboard.sendKeyStroke(KEY_ENTER);
+      DigiKeyboard.print("# ENTER");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
@@ -269,16 +270,16 @@ void loop()
   /* CLOSE */
   if (inputs_A == 0b11111011)
   {
-    if (debug_state)
+    if (not debug_state)
     {
-      DigiKeyboard.print("# CLOSE [Alt+F4]");
-      DigiKeyboard.print("\n");
+      // [Alt+F4]
+      DigiKeyboard.sendKeyStroke(KEY_F4, MOD_ALT_LEFT);
       DigiKeyboard.delay(debounce_time);
     }
     else
     {
-      // [Alt+F4]
-      DigiKeyboard.sendKeyStroke(KEY_F4, MOD_ALT_LEFT);
+      DigiKeyboard.print("# CLOSE [Alt+F4]");
+      DigiKeyboard.print("\n");
       DigiKeyboard.delay(debounce_time);
     }
   }
