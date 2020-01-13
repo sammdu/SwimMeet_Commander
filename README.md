@@ -12,6 +12,9 @@ Programmed with [Arduino](https://www.arduino.cc/)
 ![PCB 3D Rendering, Front](readme_misc/pcb3d_f_asm.png)
 ![PCB 3D Rendering, Back](readme_misc/pcb3d_b_asm.png)
 
+## TODO
+* Switch `if` and `else` clauses during polling in Arduino code to improve normal operation responsiveness
+
 ## Materials
 
 * Microcontroller: [Digispark Development Board](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO)
