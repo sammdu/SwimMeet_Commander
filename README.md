@@ -1,7 +1,7 @@
 # Swim Meet Commander
 #### Unofficial macro keyboard for the HY-TEK Swim Meet Manager software.
 Designed with [KiCad](https://www.kicad-pcb.org/)   
-Programmed with [ARDUINO](https://www.arduino.cc/)   
+Programmed with [Arduino](https://www.arduino.cc/)   
 
 ![Open Source Hardware Logo](https://i2.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png) &nbsp;&nbsp;
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
@@ -17,11 +17,13 @@ Programmed with [ARDUINO](https://www.arduino.cc/)
 * Microcontroller: [Digispark Development Board](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO)
 * I/O Expander (to support 13 switches simultaneously): [Microchip MCP23017](https://www.digikey.com/product-detail/en/MCP23017T-E%2fSO/MCP23017T-E%2fSOCT-ND/5358289/)
 * Keyboard Switches: [E-Switch KS1100](https://www.digikey.com/product-detail/en/KS1100OA1AF060/EG5505-ND/7364301/)
-* Key Caps: [TE Connectivity ALCOSWITCH 1571384-4](https://www.digikey.com/product-detail/en/1571384-4/450-1829-ND/1201463/)
+* Key Caps: [Sparkfun PRT-15305](https://www.sparkfun.com/products/15305)
 * USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/)
 * Toggle Switch: [Sparkfun COM-09276](https://www.sparkfun.com/products/9276)
+* SMD Slide Switch: [Sparkfun COM-10860](https://www.sparkfun.com/products/10860)
 * 5mm LEDs
 * 0805 SMD Resistors: `330R`, `4k7` and `10k` values
+* Pin Headers
 
 ## Copyright & Licensing
 
