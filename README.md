@@ -20,10 +20,10 @@ All done!
 * Microcontroller: [Digispark Development Board](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO)
 * I/O Expander (to support 13 switches simultaneously): [Microchip MCP23017](https://www.digikey.com/product-detail/en/MCP23017T-E%2fSO/MCP23017T-E%2fSOCT-ND/5358289/)
 * Keyboard Switches: [E-Switch KS1100](https://www.digikey.com/product-detail/en/KS1100OA1AF060/EG5505-ND/7364301/)
-* Key Caps: [Sparkfun PRT-15305](https://www.sparkfun.com/products/15305)
-* USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/)
+* Key Caps: [Sparkfun PRT-15305](https://www.sparkfun.com/products/15305), or any Cherry MX compatible models   
+* USB Male-Female Cable: [Qualtek 3021056-01M](https://www.digikey.com/product-detail/en/3021056-01M/Q1104-ND/7795306/), or any compatible USB Type-A cable   
 * Toggle Switch: [Sparkfun COM-09276](https://www.sparkfun.com/products/9276)
-* SMD Slide Switch: [Sparkfun COM-10860](https://www.sparkfun.com/products/10860)
+* SMD Slide Switch: [Sparkfun COM-10860](https://www.sparkfun.com/products/10860), or any compatible models
 * 5mm LEDs
 * 0805 SMD Resistors: `330R`, `4k7` and `10k` values
 * Pin Headers
