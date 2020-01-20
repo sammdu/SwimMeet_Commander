@@ -17,7 +17,7 @@ All done!
 
 ## Materials
 
-* Microcontroller: [Digispark Development Board](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO)
+* Microcontroller: Digispark Development Board - [Amazon Vendor](https://www.amazon.com/DAOKI-Digispark-Kickstarter-ATTINY85-Development/dp/B01MDUHSWO) | [Official Page (Out of Stock)](http://digistump.com/products/1)
 * I/O Expander (to support 13 switches simultaneously): [Microchip MCP23017](https://www.digikey.com/product-detail/en/MCP23017T-E%2fSO/MCP23017T-E%2fSOCT-ND/5358289/)
 * Keyboard Switches: [E-Switch KS1100](https://www.digikey.com/product-detail/en/KS1100OA1AF060/EG5505-ND/7364301/)
 * Key Caps: [Sparkfun PRT-15305](https://www.sparkfun.com/products/15305), or any Cherry MX compatible models   
