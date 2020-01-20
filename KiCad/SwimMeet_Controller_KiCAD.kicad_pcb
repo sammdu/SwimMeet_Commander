@@ -206,7 +206,7 @@
     (add_net SDA)
   )
 
-  (module Digistump:Digispark_USB-A (layer F.Cu) (tedit 5E251AE7) (tstamp 5E1AC2E2)
+  (module Digistump:Digispark_USB-A (layer F.Cu) (tedit 5E25E3FA) (tstamp 5E1AC2E2)
     (at 28.702 30.734)
     (path /5E02D658)
     (fp_text reference U1 (at -13.462 -13.208) (layer F.SilkS)
