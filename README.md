@@ -13,7 +13,7 @@ Programmed with [Arduino](https://www.arduino.cc/)
 ![PCB 3D Rendering, Back](readme_misc/pcb3d_b_asm.png)
 
 ## TODO
-All done!
+* adjust button spacing to account for keycaps
 
 ## Materials
 
