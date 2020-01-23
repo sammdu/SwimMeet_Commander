@@ -1,5 +1,5 @@
 # Swim Meet Commander
-#### Unofficial macro keyboard for the HY-TEK Swim Meet Manager software.
+#### Unofficial macro keyboard for the [HY-TEK Swim Meet Manager](https://hytek.active.com/swim-meet-software.html) software.
 Designed with [KiCad](https://www.kicad-pcb.org/)   
 Programmed with [Arduino](https://www.arduino.cc/)   
 
@@ -8,12 +8,18 @@ Programmed with [Arduino](https://www.arduino.cc/)
 
 <br/>
 
+## What Is This
+A macro keyboard that controls the swim meet scoring software commonly used in American high-school and college swim meets. It simplifies operation of the software by pulling out 13 most used functionalities as dedicated keys, achieving one-key operation.
+
+The device works by triggering keyboard shortcuts compatible with the swim meet software when a corresponding button is pushed. It is automatically recognized by most operating systems as an HID keyboard with no drivers required.
+
 ## 3D Renders
-![PCB 3D Rendering, Front](readme_misc/pcb3d_f_asm.png)
-![PCB 3D Rendering, Back](readme_misc/pcb3d_b_asm.png)
+![PCB 3D Rendering, Front](3d_renders/pcb3d_f_asm.png)
+![PCB 3D Rendering, Back](3d_renders/pcb3d_b_asm.png)
 
 ## TODO
 * adjust button spacing to account for keycaps
+* design 3D printed case
 
 ## Materials
 
