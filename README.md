@@ -3,8 +3,9 @@
 Designed with [KiCad](https://www.kicad-pcb.org/)   
 Programmed with [Arduino](https://www.arduino.cc/)   
 
-![Open Source Hardware Logo](https://i2.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png) &nbsp;&nbsp;
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+<a rel="license" href="https://www.oshwa.org/definition/"><img alt="Open Source Hardware" style="border-width:0" src="https://i2.wp.com/www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png"/></a>
+&nbsp;&nbsp;
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
 <br/>
 
