@@ -7,16 +7,18 @@ Programmed with [Arduino](https://www.arduino.cc/)
 &nbsp;&nbsp;
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
 
-<br/>
 
 ## What Is This
 A macro keyboard that controls the swim meet scoring software commonly used in American high-school and college swim meets. It simplifies operation of the software by pulling out 13 most used functionalities as dedicated keys, achieving one-key operation.
 
 The device works by triggering keyboard shortcuts compatible with the swim meet software when a corresponding button is pushed. It is automatically recognized by most operating systems as an HID keyboard with no drivers required.
 
+## Assembled Device In-Operation
+![Assembled Device Picture](Pictures/picture-in-operation.jpg)
+
 ## 3D Renders
-![PCB 3D Rendering, Front](3d_renders/pcb3d_f_asm.png)
-![PCB 3D Rendering, Back](3d_renders/pcb3d_b_asm.png)
+![PCB 3D Rendering, Front](Pictures/pcb3d_f_asm.png)
+![PCB 3D Rendering, Back](Pictures/pcb3d_b_asm.png)
 
 ## TODO
 * adjust button spacing to account for keycaps
