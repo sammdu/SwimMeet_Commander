@@ -16,7 +16,7 @@ A macro keyboard that controls the swim meet scoring software commonly used in A
 
 The device works by triggering keyboard shortcuts compatible with the swim meet software when a corresponding button is pushed. It is automatically recognized by most operating systems as an HID keyboard with no additional drivers required.
 
-> [See Technical Documentation on GitHub Wiki](https://github.com/sammdu/SwimMeet_Commander/wiki/Technical-Documentation)
+> 🔗 [See Technical Documentation on GitHub Wiki](https://github.com/sammdu/SwimMeet_Commander/wiki/Technical-Documentation)
 
 ## Assembled Device In-Operation
 
